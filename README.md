@@ -25,5 +25,5 @@ A collection of mini frontend projects developed using **HTML**, **CSS**, and **
 To clone and run these projects locally:
 
 ```bash
-git clone https://github.com/yourusername/frontend-mini-projects.git
-cd frontend-mini-projects
+git clone https://github.com/yourusername/frontend-projects.git
+cd frontend-projects
