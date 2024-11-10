@@ -14,6 +14,9 @@ A collection of mini frontend projects developed using **HTML**, **CSS**, and **
 1. **Weather App**  
    A weather forecast application using the OpenWeatherMap API.
 
+2. **To-Do List**  
+   A simple, interactive to-do list application to manage your daily tasks.   
+
 
 ## 🛠 Technologies
 - HTML5
