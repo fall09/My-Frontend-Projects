@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #f0f4f8; 
+}
+
+.card {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #56cfe1, #f0f4f8); 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todolist {
+    width: 100%;
+    max-width: 540px;
+    background: #ffffff;
+    margin: 20px;
+    padding: 40px 30px 70px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.todolist h2 {
+    color: #007f91; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todolist h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background: #e8f7fa; 
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 14px;
+    color: #2d3e50; 
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 12px 25px;
+    color: white;
+    background-color: #56cfe1; 
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: 10px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #4db2c8; 
+    transform: translateY(-3px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f7fa; 
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    transition: background 0.3s;
+}
+
+.task.completed {
+    background: #d3e4e6; 
+    text-decoration: line-through;
+}
+
+.task p {
+    flex: 1;
+    margin: 0;
+    padding-left: 10px;
+    color: #37474f;
+}
+
+.task img {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    transition: transform 0.2s;
+}
+
+.task img:hover {
+    transform: scale(1.1);
+}
